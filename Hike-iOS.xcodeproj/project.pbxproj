@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531C95A12ACE084300D8E144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531C95A02ACE084300D8E144 /* Assets.xcassets */; };
+		531C95A32ACE0A7300D8E144 /* Hike_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C95A22ACE0A7300D8E144 /* Hike_iOSApp.swift */; };
+		53A6E2AA2ACE0D67000E7F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2A92ACE0D67000E7F5E /* ContentView.swift */; };
+		53A6E2B02ACE0DE2000E7F5E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2AF2ACE0DE2000E7F5E /* CardView.swift */; };
+		53A6E2B62ACE0DED000E7F5E /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2B42ACE0DED000E7F5E /* CustomBackgroundView.swift */; };
+		53A6E2B72ACE0DED000E7F5E /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2B52ACE0DED000E7F5E /* CustomListRowView.swift */; };
+		53A6E2B82ACE0DED000E7F5E /* MotionAnimatinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2B22ACE0DED000E7F5E /* MotionAnimatinView.swift */; };
+		53A6E2B92ACE0DED000E7F5E /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2B12ACE0DED000E7F5E /* CustomCircleView.swift */; };
+		53A6E2BA2ACE0DED000E7F5E /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2B32ACE0DED000E7F5E /* CustomButtonView.swift */; };
+		53A6E2BD2ACE0E12000E7F5E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2BC2ACE0E12000E7F5E /* ColorExtension.swift */; };
+		53A6E2C02ACE0E2A000E7F5E /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2BF2ACE0E2A000E7F5E /* GradientButton.swift */; };
+		53A6E2C32ACE0E8A000E7F5E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6E2C22ACE0E8A000E7F5E /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		531C95A02ACE084300D8E144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		531C95A22ACE0A7300D8E144 /* Hike_iOSApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hike_iOSApp.swift; path = ../../../.Trash/Hike_iOSApp.swift; sourceTree = "<group>"; };
+		538B4FAE2ACE05A700AF9B7E /* Hike-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hike-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A6E2A92ACE0D67000E7F5E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53A6E2AF2ACE0DE2000E7F5E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		53A6E2B12ACE0DED000E7F5E /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		53A6E2B22ACE0DED000E7F5E /* MotionAnimatinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimatinView.swift; sourceTree = "<group>"; };
+		53A6E2B32ACE0DED000E7F5E /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		53A6E2B42ACE0DED000E7F5E /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		53A6E2B52ACE0DED000E7F5E /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
+		53A6E2BC2ACE0E12000E7F5E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		53A6E2BF2ACE0E2A000E7F5E /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		53A6E2C22ACE0E8A000E7F5E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		53A6E2C52ACE0EC0000E7F5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538B4FAB2ACE05A700AF9B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538B4FA52ACE05A700AF9B7E = {
+			isa = PBXGroup;
+			children = (
+				538B4FB02ACE05A700AF9B7E /* Hike-iOS */,
+				538B4FAF2ACE05A700AF9B7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538B4FAF2ACE05A700AF9B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538B4FAE2ACE05A700AF9B7E /* Hike-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538B4FB02ACE05A700AF9B7E /* Hike-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				531C95A22ACE0A7300D8E144 /* Hike_iOSApp.swift */,
+				53A6E2C62ACE0ECD000E7F5E /* Preview Content */,
+				53A6E2C42ACE0E9B000E7F5E /* Screens */,
+				53A6E2C12ACE0E38000E7F5E /* Modifiers */,
+				53A6E2BE2ACE0E25000E7F5E /* Extensions */,
+				53A6E2BB2ACE0E00000E7F5E /* Components */,
+				531C95A02ACE084300D8E144 /* Assets.xcassets */,
+			);
+			path = "Hike-iOS";
+			sourceTree = "<group>";
+		};
+		53A6E2BB2ACE0E00000E7F5E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				53A6E2AF2ACE0DE2000E7F5E /* CardView.swift */,
+				53A6E2B42ACE0DED000E7F5E /* CustomBackgroundView.swift */,
+				53A6E2B32ACE0DED000E7F5E /* CustomButtonView.swift */,
+				53A6E2B12ACE0DED000E7F5E /* CustomCircleView.swift */,
+				53A6E2B52ACE0DED000E7F5E /* CustomListRowView.swift */,
+				53A6E2B22ACE0DED000E7F5E /* MotionAnimatinView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		53A6E2BE2ACE0E25000E7F5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53A6E2BC2ACE0E12000E7F5E /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53A6E2C12ACE0E38000E7F5E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				53A6E2BF2ACE0E2A000E7F5E /* GradientButton.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		53A6E2C42ACE0E9B000E7F5E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				53A6E2A92ACE0D67000E7F5E /* ContentView.swift */,
+				53A6E2C22ACE0E8A000E7F5E /* SettingsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		53A6E2C62ACE0ECD000E7F5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53A6E2C52ACE0EC0000E7F5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538B4FAD2ACE05A700AF9B7E /* Hike-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538B4FBC2ACE05A800AF9B7E /* Build configuration list for PBXNativeTarget "Hike-iOS" */;
+			buildPhases = (
+				538B4FAA2ACE05A700AF9B7E /* Sources */,
+				538B4FAB2ACE05A700AF9B7E /* Frameworks */,
+				538B4FAC2ACE05A700AF9B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hike-iOS";
+			productName = "Hike-iOS";
+			productReference = 538B4FAE2ACE05A700AF9B7E /* Hike-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538B4FA62ACE05A700AF9B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					538B4FAD2ACE05A700AF9B7E = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 538B4FA92ACE05A700AF9B7E /* Build configuration list for PBXProject "Hike-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538B4FA52ACE05A700AF9B7E;
+			productRefGroup = 538B4FAF2ACE05A700AF9B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538B4FAD2ACE05A700AF9B7E /* Hike-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538B4FAC2ACE05A700AF9B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531C95A12ACE084300D8E144 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538B4FAA2ACE05A700AF9B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A6E2AA2ACE0D67000E7F5E /* ContentView.swift in Sources */,
+				53A6E2B02ACE0DE2000E7F5E /* CardView.swift in Sources */,
+				53A6E2B72ACE0DED000E7F5E /* CustomListRowView.swift in Sources */,
+				53A6E2BD2ACE0E12000E7F5E /* ColorExtension.swift in Sources */,
+				53A6E2BA2ACE0DED000E7F5E /* CustomButtonView.swift in Sources */,
+				53A6E2C02ACE0E2A000E7F5E /* GradientButton.swift in Sources */,
+				53A6E2B92ACE0DED000E7F5E /* CustomCircleView.swift in Sources */,
+				53A6E2B82ACE0DED000E7F5E /* MotionAnimatinView.swift in Sources */,
+				531C95A32ACE0A7300D8E144 /* Hike_iOSApp.swift in Sources */,
+				53A6E2B62ACE0DED000E7F5E /* CustomBackgroundView.swift in Sources */,
+				53A6E2C32ACE0E8A000E7F5E /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		538B4FBA2ACE05A800AF9B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Mushroom AppIcon-Map AppIcon-MagnifyingGlass AppIcon-Campfire AppIcon-Camera AppIcon-Backpack";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		538B4FBB2ACE05A800AF9B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Mushroom AppIcon-Map AppIcon-MagnifyingGlass AppIcon-Campfire AppIcon-Camera AppIcon-Backpack";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538B4FBD2ACE05A800AF9B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hike-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 47K5ANA66W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Hike-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		538B4FBE2ACE05A800AF9B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hike-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 47K5ANA66W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Hike-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538B4FA92ACE05A700AF9B7E /* Build configuration list for PBXProject "Hike-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538B4FBA2ACE05A800AF9B7E /* Debug */,
+				538B4FBB2ACE05A800AF9B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538B4FBC2ACE05A800AF9B7E /* Build configuration list for PBXNativeTarget "Hike-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538B4FBD2ACE05A800AF9B7E /* Debug */,
+				538B4FBE2ACE05A800AF9B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538B4FA62ACE05A700AF9B7E /* Project object */;
+}
